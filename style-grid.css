@@ -165,7 +165,7 @@ p, li {
     }  
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .home-grid {
         grid-template: 50px repeat(7, 160px) 50px / repeat(12, 1fr);
     }
@@ -188,7 +188,7 @@ p, li {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .home-grid {
         grid-template: 50px repeat(9, 175px) 50px / 1fr;
     }
