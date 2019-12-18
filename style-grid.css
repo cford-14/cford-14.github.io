@@ -161,6 +161,54 @@ p, li {
     grid-area: 9 / 1 / 10 / 13;
 }
 
+/* Market */
+
+.market-grid {
+    display: grid;
+    grid-template: 2.5rem repeat(3, 11rem) / repeat(12, 1fr);
+    position: relative;
+}
+
+.page-heading {
+    grid-area: 4 / 1 / 5 / 13;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: hsl(234, 58%, 24%) double  4px;
+    margin: 20px 40px;
+}
+
+.market {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border:hsl(234, 58%, 24%) 5px solid;
+    margin: 2px 15px 30px 15px;
+}
+
+.housepic {
+    width: 350px;
+    height: 300px;
+}
+
+.home p {
+    text-align: center;
+    margin: 0px;
+    font-weight: 700;
+    
+}
+
+h5 {
+    font-size: 30px;
+    color: red;
+    margin: 5px;
+}
+
 @media screen and (max-width: 1390px) {
     html {
         font-size: 18px;
@@ -195,12 +243,20 @@ p, li {
     .home-grid {
         grid-template: 2.5rem repeat(9, 9rem) 2.5rem / 100%;
     }
+
+    .market-grid {
+        grid-template: 2.5rem repeat(2, 9rem)  / 100%;
+    }
+
+    .page-heading {
+        grid-row: 3;
+        text-align: center;
+        font-size: 2rem;
+    }
+
     #bkground {
         display: none;
     }
-    /*.button {
-        font-size: 20px;
-    }*/
     #box1 {
         grid-row: 3 / 5 ;
         grid-column: 1;
@@ -238,12 +294,19 @@ p, li {
         text-align: center;
         font-size: 1.2rem;
     }
-    nav span {
+    nav span, footer span {
         display: none;
     }
     #box2, #box3{
         padding: 4%;
         overflow: hidden;
+    }
+    .home {
+        margin: 1rem 0;
+    }
+    .market {
+        margin: 1rem 0;
+        padding: 2px;
     }
       
 } 
