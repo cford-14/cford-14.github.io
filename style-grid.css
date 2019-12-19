@@ -181,6 +181,7 @@ p, li {
     text-align: center;
     border: hsl(234, 58%, 24%) double  4px;
     margin: 20px 40px;
+    width: 350px;
 }
 
 .market {
@@ -192,8 +193,10 @@ p, li {
 }
 
 .housepic {
-    width: 350px;
+    width: 100%;
     height: 300px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .home p {
@@ -307,6 +310,7 @@ h5 {
     .market {
         margin: 1rem 0;
         padding: 2px;
+        border: none;
     }
       
 } 
