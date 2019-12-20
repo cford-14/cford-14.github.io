@@ -266,16 +266,21 @@ h5 {
         min-height: 100%;
         margin-top: -10rem;
     }
+    #mkt-background img {
+        width: 100%;
+        min-height: 100%;
+        margin-top: -10rem;
+    }
 }
 
 @media screen and (max-width: 1100px) {
     html {
         font-size: 15px;
     }
-    #title{
+    #title, #mkt-title {
         font-size: 4rem;
     }
-    #moto {
+    #moto, #mkt-moto {
         font-size: 2rem;
     }
     h4 {
@@ -302,7 +307,7 @@ h5 {
         font-size: 2rem;
     }
 
-    #bkgroundm, #mkt-bkground {
+    #bkground, #mkt-bkground {
         display: none;
     }
     #box1 {
