@@ -15,6 +15,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index:10;
+    cursor: pointer;
 }
 
 .button {
@@ -117,11 +118,17 @@ p, li {
 #box1 {
     grid-area: 5 / 2 / 7 / 7;
     box-sizing: border-box;
-    width: 100%; 
-    height: 100%; 
     overflow: hidden;
     border: hsl(234, 58%, 24%) solid 3px;
     object-fit: cover;
+    width: 100%; 
+    height: 100%; 
+}
+
+#housepic {
+    opacity: 1;
+    width: 100%; 
+    min-height: 100%; 
 }
 
 #box2 {
@@ -131,6 +138,10 @@ p, li {
     background-color: whitesmoke;
     overflow: scroll;  
     z-index: 6;
+}
+
+#why {
+    color: black;
 }
 
 #box3 {
@@ -152,14 +163,33 @@ p, li {
     object-fit: cover;
 }
 
-#box4 img {
+#keypic {
     height: 100%;
     min-width: 100%;
+    opacity: 1;
 }
 
 .home-space {
     grid-area: 9 / 1 / 10 / 13;
 }
+
+#button-div {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#button {
+    font-size: 2rem;
+    color:  whitesmoke;
+    background-color: hsl(234, 58%, 24%);
+    padding: 0.25rem;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+
 
 /* Market */
 
