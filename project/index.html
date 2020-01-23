@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ListME | a shopping app</title>
+        <link href = "style.css" type = "text/css" rel = "stylesheet">
+    </head>
+    
+    <body>
+        <div class="banner">
+            <image class="storefront" src="storefront.jpg"></image>
+            <div class="title">
+                <h1>Project Title</h1>
+            </div>
+        </div>
+        <nav>
+            <a class="menuOption" href="index.html">
+                <h3>New List</h3>
+            </a>
+            <a class="menuOption" href="invite.html">
+                <h3>Invite Contributors</h3>
+            </a>
+            <a class="menuOption" href="invite.html">
+                <h3>Share Lists</h3>
+            </a>
+        </nav> 
+        <div class="listBox">
+            <div class="listBoxTitle">
+                <h3>Shopping <br> Lists</h3>
+            </div>
+            <div class="listButton">
+                <p>UserList 1</p>
+            </div>
+            <div class="listButton">
+                <p>UserList 2</p>
+            </div>
+            <div class="listButton">
+                <p>UserList 3</p>
+            </div>
+            <div class="listButton">
+                <p>Master List</p>
+            </div>   
+        </div>
+        <div class="functionBox">
+            <div class="functionBoxGrid">
+                <div class="addBox">
+                    <div class="boxTitle">
+                        <h3>Add to Lists</h3>
+                    </div>
+                    <div class="form">
+                        <form>
+                            <input id="item" type="text" name="item" placeholder="item name"><br>
+                        </form>
+                        <form>
+                            <input id="quantity" type="number" name="quantity" placeholder="#"><br>
+                        </form>
+                        <form>
+                            <input id="image" type="text" name="image" placeholder="imaage file name">
+                        </form>
+                        <textarea name="message" rows="1" cols="20" placeholder="notes"></textarea>
+                        <select name="lists" size="3"   multiple>
+                            <option value="userlist1">User List 1</option>
+                            <option value="userlist2">User List 2</option>
+                            <option value="userlist3">User List 3</option>
+                        </select>
+                        <button class="addField" type="button" onclick="">+</button>
+                    </div>
+                    <div>
+                      <button class="submit" type="submit" onclick="">submit</button>
+                   </div>
+                </div>
+            
+            <div class="Box">
+                <div class="boxTitle">
+                    <h3>Create New List</h3>
+                </div>
+                <div class="form">
+                    <form>
+                        <input id="listName" type="text" name="listName" placeholder="list name"><br>
+                    </form>
+                </div>
+                <div class="subtitle">
+                    <p>invite contributors</p>
+                </div>
+                <div class="form">
+                    <form>
+                        <input id="inviteName" type="text" name="inviteName" placeholder="friend's name"><br>
+                    </form>
+                    <form>
+                        <input id="inviteEmail" type="text" name="inviteEmail" placeholder="friend's email address"><br>
+                    </form>
+                    <form>
+                        <input id="contribute" type="radio" name="inviteStatus" value="contribute">view & edit<br>
+                        <input id="viewOnly" type="radio" name="inviteStatus" value="view">view only<br>
+                    </form>
+                    <button class="addField" type="button" onclick="">+</button>
+                </div>
+                <div>
+                    <button class="submit" type="submit" onclick="">submit</button>
+                </div>
+            </div>
+            <div class="Box" class="boxColor" id="manageBox">
+                <div class="boxTitle">
+                    <h3>Manage Lists</h3>
+                </div>
+                <div class="twoColumns">
+                    <div id="reorder">
+                        <p class="subtitle">reorder lists</p>
+                        <ul>
+                            <li class=reorder>UserList1</li>
+                            <li class=reorder>UserList2</li>
+                            <li class=reorder>UserList3</li>
+                        </ul>
+                    </div>
+                    <div id="deleteList">                            
+                        <p class="subtitle">delete list</p>
+                        <form>
+                            <label for="delete userList">select list to delete:<br></label>
+                            <input list="deleteUserList" id="delete userList" name="delete userList"/>
+
+                            <datalist id="deleteUserList">
+                                <option value="UserList1">
+                                <option value="UserList2">
+                                <option value="Userlist3">
+                            </datalist>
+                            <button class="submit" type="submit" onclick="">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    
+        
+    </body>
+
+
+
+
+
+
+
+</html>
