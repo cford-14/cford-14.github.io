@@ -1,0 +1,13 @@
+{
+    "head": {
+        "pricebook": "default",
+        "shop": "storefront-catalog-en",
+        "currency": "USD"
+    },
+    "items": [
+        {
+            "product_id": "27952",
+            "value": 1.0
+        }
+    ]
+}
