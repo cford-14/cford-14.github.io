@@ -1,0 +1,396 @@
+{
+    "head": {
+        "store_mapping": [
+            {
+                "store_id": "LCHI",
+                "fulfillment_node_id": "LCHI"
+            },
+            {
+                "store_id": "LWPB",
+                "fulfillment_node_id": "LWPB"
+            },
+            {
+                "store_id": "ACK1",
+                "fulfillment_node_id": "ACK1"
+            },
+            {
+                "store_id": "MBU2",
+                "fulfillment_node_id": "MBU2"
+            },
+            {
+                "store_id": "NPB3",
+                "fulfillment_node_id": "NPB3"
+            },
+            {
+                "store_id": "BLE4",
+                "fulfillment_node_id": "BLE4"
+            },
+            {
+                "store_id": "BOS5",
+                "fulfillment_node_id": "BOS5"
+            },
+            {
+                "store_id": "SAG6",
+                "fulfillment_node_id": "SAG6"
+            },
+            {
+                "store_id": "PRN7",
+                "fulfillment_node_id": "PRN7"
+            },
+            {
+                "store_id": "PP8",
+                "fulfillment_node_id": "PP8"
+            },
+            {
+                "store_id": "OP9",
+                "fulfillment_node_id": "OP9"
+            },
+            {
+                "store_id": "MVY10",
+                "fulfillment_node_id": "MVY10"
+            },
+            {
+                "store_id": "SL11",
+                "fulfillment_node_id": "SL11"
+            },
+            {
+                "store_id": "SF12",
+                "fulfillment_node_id": "SF12"
+            },
+            {
+                "store_id": "HY13",
+                "fulfillment_node_id": "HY13"
+            },
+            {
+                "store_id": "SH14",
+                "fulfillment_node_id": "SH14"
+            },
+            {
+                "store_id": "SR15",
+                "fulfillment_node_id": "SR15"
+            },
+            {
+                "store_id": "VCE16",
+                "fulfillment_node_id": "VCE16"
+            },
+            {
+                "store_id": "AMA17",
+                "fulfillment_node_id": "AMA17"
+            },
+            {
+                "store_id": "RB18",
+                "fulfillment_node_id": "RB18"
+            },
+            {
+                "store_id": "JH19",
+                "fulfillment_node_id": "JH19"
+            },
+            {
+                "store_id": "BS20",
+                "fulfillment_node_id": "BS20"
+            },
+            {
+                "store_id": "FI21",
+                "fulfillment_node_id": "FI21"
+            },
+            {
+                "store_id": "CM22",
+                "fulfillment_node_id": "CM22"
+            },
+            {
+                "store_id": "GT23",
+                "fulfillment_node_id": "GT23"
+            },
+            {
+                "store_id": "SEA24",
+                "fulfillment_node_id": "SEA24"
+            },
+            {
+                "store_id": "AUS25",
+                "fulfillment_node_id": "AUS25"
+            },
+            {
+                "store_id": "KI28",
+                "fulfillment_node_id": "KI28"
+            },
+            {
+                "store_id": "NV26",
+                "fulfillment_node_id": "NV26"
+            },
+            {
+                "store_id": "COL29",
+                "fulfillment_node_id": "COL29"
+            },
+            {
+                "store_id": "GRW27",
+                "fulfillment_node_id": "GRW27"
+            },
+            {
+                "store_id": "DAL30",
+                "fulfillment_node_id": "DAL30"
+            },
+            {
+                "store_id": "CHS31",
+                "fulfillment_node_id": "CHS31"
+            },
+            {
+                "store_id": "NV34",
+                "fulfillment_node_id": "NV34"
+            },
+            {
+                "store_id": "SDL32",
+                "fulfillment_node_id": "SDL32"
+            },
+            {
+                "store_id": "MV33",
+                "fulfillment_node_id": "MV33"
+            },
+            {
+                "store_id": "SS36",
+                "fulfillment_node_id": "SS36"
+            },
+            {
+                "store_id": "NOL35",
+                "fulfillment_node_id": "NOL35"
+            },
+            {
+                "store_id": "MBH00",
+                "fulfillment_node_id": "MBH00"
+            },
+            {
+                "store_id": "WIL37",
+                "fulfillment_node_id": "WIL37"
+            },
+            {
+                "store_id": "MAU38",
+                "fulfillment_node_id": "MAU38"
+            },
+            {
+                "store_id": "SUB39",
+                "fulfillment_node_id": "SUB39"
+            },
+            {
+                "store_id": "SLM200",
+                "fulfillment_node_id": "SLM200"
+            }
+        ],
+        "mode": "atp"
+    },
+    "items": [
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "LCHI"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "LWPB"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "ACK1"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "MBU2"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "NPB3"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "BLE4"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "BOS5"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SAG6"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "PRN7"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "PP8"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "OP9"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "MVY10"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SL11"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SF12"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "HY13"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SH14"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SR15"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "VCE16"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "AMA17"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "RB18"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "JH19"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "BS20"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "FI21"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "CM22"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "GT23"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SEA24"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "AUS25"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "KI28"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "NV26"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "COL29"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "GRW27"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "DAL30"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "CHS31"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "NV34"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SDL32"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "MV33"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SS36"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "NOL35"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "MBH00"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "WIL37"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "MAU38"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SUB39"
+        },
+        {
+            "product_id": "MAF1701-BEA-OS",
+            "quantity": "0",
+            "fulfillment_node_id": "SLM200"
+        }
+    ]
+}
